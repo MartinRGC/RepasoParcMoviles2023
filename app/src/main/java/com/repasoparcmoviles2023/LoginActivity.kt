@@ -27,7 +27,7 @@ class LoginActivity : AppCompatActivity() {
             val email = edtemail.text.toString()
             val password = edtpassword.text.toString()
             val intent = Intent(this, MainActivity::class.java)
-            fun validate(email: String,password: String) {
+           fun validate(email: String,password: String) {
 
                 if (email == "admin@smartapp.com" && password == "admin123"){
 
@@ -38,6 +38,8 @@ class LoginActivity : AppCompatActivity() {
 
                }
             }
+          validate(email,password)
         }
+
     }
 }
