@@ -18,4 +18,5 @@
     <string name="btn1">Ingresar</string>
     <string name="emailhint">Enter your Email</string>
     <string name="passwordhint">Password</string>
+    <string name="tvopciones">Opciones</string>
 </resources>

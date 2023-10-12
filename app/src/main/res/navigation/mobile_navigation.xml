@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@id/navgeneraciones">
+    app:startDestination="@id/navopciones">
     <fragment
         android:id="@+id/navgeneraciones"
         android:name="com.repasoparcmoviles2023.ui.fragments.GeneracionesFragment"
@@ -14,11 +14,6 @@
         android:name="com.repasoparcmoviles2023.ui.fragments.IMCFragment"
         android:label="fragment_i_m_c"
         tools:layout="@layout/fragment_i_m_c" />
-    <fragment
-        android:id="@+id/navlogin"
-        android:name="com.repasoparcmoviles2023.ui.fragments.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
     <fragment
         android:id="@+id/navopciones"
         android:name="com.repasoparcmoviles2023.ui.fragments.OpcionesFragment"
