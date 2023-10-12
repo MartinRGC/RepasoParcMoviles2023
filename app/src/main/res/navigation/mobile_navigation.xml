@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navgeneraciones">
+    <fragment
+        android:id="@+id/navgeneraciones"
+        android:name="com.repasoparcmoviles2023.ui.fragments.GeneracionesFragment"
+        android:label="fragment_generaciones"
+        tools:layout="@layout/fragment_generaciones" />
+    <fragment
+        android:id="@+id/navIMC"
+        android:name="com.repasoparcmoviles2023.ui.fragments.IMCFragment"
+        android:label="fragment_i_m_c"
+        tools:layout="@layout/fragment_i_m_c" />
+    <fragment
+        android:id="@+id/navlogin"
+        android:name="com.repasoparcmoviles2023.ui.fragments.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/navopciones"
+        android:name="com.repasoparcmoviles2023.ui.fragments.OpcionesFragment"
+        android:label="fragment_opciones"
+        tools:layout="@layout/fragment_opciones" />
+    <fragment
+        android:id="@+id/navsignoZodiacal"
+        android:name="com.repasoparcmoviles2023.ui.fragments.SignoZodiacalFragment"
+        android:label="fragment_signo_zodiacal"
+        tools:layout="@layout/fragment_signo_zodiacal" />
+</navigation>
